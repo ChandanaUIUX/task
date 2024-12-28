@@ -1,0 +1,64 @@
+
+#imgtext{
+  position: absolute;
+  z-index: 3;
+  width: 70%;
+  left: 40px;
+  top: 60px;
+  padding: 200px;
+}
+#section{
+  margin-bottom: 40px;
+}
+
+#service{
+  margin-bottom: 40px;
+}
+
+#choose{
+  margin-bottom: 40px;
+}
+
+
+#techcenter{
+  justify-content: center;
+  
+}
+#client{
+  margin-bottom: 40px;
+}
+
+#contact{
+  margin-bottom: 40px;
+}
+#cont{
+  margin-bottom: 40px;
+
+}
+
+
+
+@media screen and (max-width: 992px) {
+ 
+
+  #mobnav {
+    display: none;
+  }
+  .fixed-top {
+    position: static !important; /* Change position from fixed to static */
+  }
+  #imgtext{
+    display: none;
+  }
+  .image{
+    display: none;
+  }
+  .swiper-SwiperSlide{
+    width:100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  
+}
+
+  
